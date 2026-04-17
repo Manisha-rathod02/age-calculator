@@ -1,0 +1,103 @@
+ ::before,
+ *::after {
+     padding: 0px;
+     margin: 0px;
+     font-family: "poppins", sans-serif;
+     box-sizing: border-box;
+
+ }
+ body{
+    background-image: url('https://media.istockphoto.com/id/488253130/vector/business-seamless-pattern-vector-background.jpg?s=612x612&w=0&k=20&c=O0gqacOysdDQqCsIH6mdHj0VKRcNsWjxR_raNyvRGmk=');
+ }
+
+ .container {
+     display: flex;
+     justify-content: center;
+     align-items: centers;
+ }
+
+ #background {
+
+     padding: 30px;
+     height: 700px;
+     margin: 30px 20px;
+     width: 400px;
+     background-image: url('https://media.istockphoto.com/id/1419844586/vector/stem-blue-horizontal-frame-vector-education-bright-illustration.jpg?s=612x612&w=0&k=20&c=-A1eYLYulujNsiM26lkVy7qMT_Hp82N5EtKHSFRmigk=');
+ }
+
+ .inner-container {
+
+     margin-top: 100px;
+
+ }
+
+ .inputs-wrapper {
+     padding: 1.87em 1.5em;
+     background-color: #ffffff;
+     border-radius: 0.5em;
+     box-shadow: 0 0.93em 1.25em rgba(0, 0, 0, 0.3);
+     margin-bottom: 3.12em;
+     
+      display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1em;
+ }
+
+ .input,
+ button {
+     font-weight: 500;
+     border-radius: 5px;
+ }
+
+ input {
+     background-color: #eeeeff;
+     color: #080808;
+     padding: 1.2em 1.25em;
+     font-size: 0.87em;
+    outline: none;
+    border: none;
+ }
+
+ button {
+     color: #ffffffff;
+     background-color: #353338;
+     flex: 1;
+     min-width: 0;
+ }
+
+ .outputs-wrapper {
+     display: flex;
+     justify-content: space-evenly;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 10px;
+     margin-top: 12px;
+ }
+
+ .outputs-wrapper div {
+
+     height: 4.5em;
+     width: 6.25em;
+     border-radius: 0.31em;
+     color: #080808;
+     background-color: #ffffff;
+     display: grid;
+     place-items: center;
+     padding: 1.25em 0;
+     box-shadow: 0 0.93em 1.25em rgba(0, 0, 0, 0.3);
+ }
+
+ span {
+     font-size: 1.87em;
+     font-weight: 500;
+     background-color: white;
+ }
+
+ p {
+     font-size: 0.87em;
+     color: #525050;
+     font-weight: 400;
+ }
+
+ 
+
+
